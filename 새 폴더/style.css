@@ -5,7 +5,7 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .comBox :first-child,
@@ -28,6 +28,7 @@
     border-radius: 25px;
     display: flex;
     justify-content: center;
+    align-items: center;
     color: white;
     font-size: 15px;
     transition: ease-in-out 0.1s;
@@ -39,7 +40,7 @@
 .myPic{
     cursor: pointer;
 }
-.comPic:hover {
+.myPic:hover {
     scale: 1.1;
     font-size: 20px;
     background-color: rgb(41, 14, 65);
